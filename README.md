@@ -40,6 +40,9 @@ On TO-DO list.
             
 3. Open the IDE (http://localhost:9000) in a browser.
 
+## NOTES
+
+1. IDE opened in the browser does not listen for the changes in the code. Afetr the change in the code you need to refresh the page to see the changes.
 
 # Useful Docker Commands
 
