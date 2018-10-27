@@ -42,7 +42,9 @@ On TO-DO list.
 
 ## NOTES
 
-1. IDE opened in the browser does not listen for the changes in the code. Afetr the change in the code you need to refresh the page to see the changes.
+1. The IDE code is the *ide/code* folder. You do **NOT** need to ssh connect to container for development. You just need to change the code in *ide/code* folder.
+
+1. IDE opened in the browser does not listen for the changes in the IDE code. Afetr the change in the code you need to refresh the page to see the changes.
 
 # Useful Docker Commands
 
