@@ -37,6 +37,10 @@ On TO-DO list.
 3. run
 
             sudo docker-compose up
+            
+3. Open the following link in a browser:
+
+            http://localhost:9000
                      
 # Useful Docker Commands
 
