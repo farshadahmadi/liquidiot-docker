@@ -1,0 +1,30 @@
+version: '3.6'
+
+services:
+    
+  ide: 
+    build: ide/docker-folder
+    links:
+    - mongodb
+    ports:
+    - 9000:9000
+    networks:
+    - liquid-iot
+    #entrypoint: tail -f /dev/null
+    volumes: 
+    - "$PWD/ide/code:/home/code/"
+
+  mongodb:
+    image: mongo:3.2.21
+    restart: always
+    ports:
+    - 27017:27017
+    networks:
+    - liquid-iot
+    #environments:
+    #  MONGO_INITDB_ROOT_USERNAME: root
+    #  MONGO_INITDB_ROOT_PASSWORD: example
+
+networks:
+  liquid-iot:
+    #external: true

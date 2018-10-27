@@ -1,0 +1,6 @@
+# exclude everything
+ide/code/*
+
+# exception to the rule
+!ide/code/.gitkeep
+
