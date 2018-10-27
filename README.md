@@ -38,10 +38,9 @@ On TO-DO list.
 
             sudo docker-compose up
             
-3. Open the following link in a browser:
+3. Open the IDE (http://localhost:9000) in a browser.
 
-            http://localhost:9000
-                     
+
 # Useful Docker Commands
 
 ## Docker
